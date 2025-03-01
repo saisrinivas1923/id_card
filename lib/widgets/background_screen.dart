@@ -4,7 +4,7 @@ import 'package:idcard/configs/colors/app_colors.dart';
 class CurvedBackground extends StatelessWidget {
   final Widget child;
 
-  const CurvedBackground({Key? key, required this.child}) : super(key: key);
+  const CurvedBackground({super.key, required this.child});
 
   @override
   Widget build(BuildContext context) {
