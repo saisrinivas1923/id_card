@@ -5,8 +5,8 @@ import 'package:idcard/widgets/input_field.dart';
 
 import '../../configs/colors/app_colors.dart';
 
-class Signupscreen extends StatelessWidget {
-  const Signupscreen({super.key});
+class FacSignupscreen extends StatelessWidget {
+  const FacSignupscreen({super.key});
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -20,10 +20,10 @@ class Signupscreen extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              InputFields(obtext:true,text:'Enter Roll Number', action:TextInputAction.next,data: Icons.person),
+              InputFields(obtext:true,text:'Enter Emp ID', action:TextInputAction.next,data: Icons.person),
               const SizedBox(height: 16.0),
-              const InputFields(obtext :true,text: 'Create New Password',action: TextInputAction.next,data: 
-                  Icons.lock),
+              const InputFields(obtext :true,text: 'Create New Password',action: TextInputAction.next,data:
+              Icons.lock),
               const SizedBox(height: 16.0),
               const InputFields(
                   obtext: true,text: 'Confirm Password',action: TextInputAction.done,data: Icons.lock),

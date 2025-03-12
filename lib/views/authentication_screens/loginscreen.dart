@@ -25,7 +25,7 @@ class Loginscreen extends StatelessWidget {
             children: [
               InputFields(
                 obtext: true,
-                text: text,
+                text: 'Enter Roll Number',
                 action: TextInputAction.next,
                 data: Icons.person,
               ),

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:idcard/views/authentication_screens/facsignupscreen.dart';
 import '../../views/registration/registrationscreen.dart';
 import '../../views/application_form/application_form_screen.dart';
 import '../../views/approval/hod_approval_screen.dart';
@@ -21,6 +22,7 @@ class AppRoutes {
       RouteNames.feeReceipt: (context) => FeeReceiptScreen(),
       RouteNames.login:(context)=>const Loginscreen(),
       RouteNames.signup:(context)=>const Signupscreen(),
+      RouteNames.facsignup:(context)=>FacSignupscreen()
     };
   }
 }
